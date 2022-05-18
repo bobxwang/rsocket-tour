@@ -48,3 +48,5 @@
     }
   }
   ```
+##### RSocketRequester
+> 提供了一个流式API来处理RSocket的请求，接收数据在一个更高层次而不是低层次的DataBuffer
