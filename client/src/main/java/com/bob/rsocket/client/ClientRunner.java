@@ -13,6 +13,6 @@ public class ClientRunner {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(ClientRunner.class);
+        SpringApplication.run(ClientRunner.class, args);
     }
 }

@@ -35,7 +35,7 @@ public class ReqResRepository {
         log.info("new stock model data [{}]", stockModel);
     }
 
-    private StockModel getStockModel(String code) {
+    public StockModel getStockModel(String code) {
         return new StockModel(code, random.nextInt(Bound), LocalDateTime.now());
     }
 }

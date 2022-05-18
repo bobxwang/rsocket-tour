@@ -1,5 +1,7 @@
 ##### Client
     一个客户端联接RScoket的服务端，暴露一个Http接口用来触发
+##### Shell-Client
+    同Client的作用，只是用shell来模拟调用RSocket的服务端
 ##### Server
     是一个RSocket的服务器
 

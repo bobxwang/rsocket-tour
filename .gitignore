@@ -1,6 +1,8 @@
 # DIY
 target/
 
+*.log
+
 # svn
 .svn/
 # Linux System

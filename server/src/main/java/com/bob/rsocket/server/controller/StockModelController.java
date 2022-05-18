@@ -18,7 +18,7 @@ import java.time.LocalDateTime;
  * @description:
  */
 @Controller
-public class ReqResController {
+public class StockModelController {
 
     @Autowired
     private ReqResRepository reqResRepository;
